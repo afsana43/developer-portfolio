@@ -187,7 +187,36 @@ main section{
     margin-top: 35px;
 }
 /* footer section */
-.social-icon{
-    
+footer{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 100px 20px;
+}
+.footer-section-desc{
+    font-size: 13px;
+    color: #b4afaf;
+    text-align: left;
+    width: 400px;
+    margin-left: 150px;
+}
+.footer-column{
+    width: 50%;
+}
+.social-icon {
+    margin-left: 130px; 
+}
+.social-icon a{
+    margin-left: 15px; 
+}
+.contact input,textarea{
+ display: block;
+margin-bottom: 20px;
+padding: 15px 30px;
+width: 50%;
+margin-top: 20px;
+margin-left: 130px;
+border: 0;
+border-radius: 5px;
 }
 
